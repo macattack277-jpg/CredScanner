@@ -1,0 +1,6 @@
+macattack:12345
+nonexistentaccount:nonexistentpassword
+macsecondaccount:password123
+thisuserdoesnotexist:thispassworddoesnotexist
+macothersecretaccount:youcantguessthis
+hallucinationusername:hallucinationpassword

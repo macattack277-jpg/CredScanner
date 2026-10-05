@@ -1,6 +1,6 @@
 # CredScanner
 
-This is a POC (proof-of-concept) tool designed to demonstrate how attackers can automate the process of trying a list of credentials on a website. This is a very real scenario, as there is a limitless supply of breached data available on the internet, and therefore bad actors who will use it to their advantage. This program was built purely for educational purposes, and therefore should be used purely for educational purposes. I'll also note that AI has not been used in this program's creation.
+This is a POC (proof-of-concept) tool designed to demonstrate how attackers can automate the process of trying a list of credentials on a website. This is a very real scenario, as there is a limitless supply of breached data available on the internet, and therefore bad actors who will use it to their advantage. This program was built purely for educational purposes, and therefore should be used purely for educational purposes. I'll also note that AI has not been used in this program's creation thus far.
 
 ## Installation
 This repository includes the Python library that executes the process of testing credentials, as well as an additional CLI menu to simplify the process of testing.
@@ -19,6 +19,10 @@ This repository includes the Python library that executes the process of testing
 
 **Install the requirements:**
 
+*Recommended to ensure you have the latest version of pip*
+
+``python3 -m pip install --upgrade pip``
+
 ``pip install -r requirements.txt``
 
 The program should now be ready to run.
@@ -27,7 +31,7 @@ The program should now be ready to run.
 
 Fortunately, I created a CLI interface to make CredScanner easy to use (credscan.py).
 
-I created an test website on localhost with the credentials that appeared correct hardcoded:
+I created a test website on my host machine with credentials hardcoded:
 
 <img width="749" height="474" alt="image" src="https://github.com/user-attachments/assets/86e9bf14-5067-418c-b4a3-025f8b0b85ed" />
 
@@ -43,7 +47,7 @@ I created an test website on localhost with the credentials that appeared correc
 
 <img width="546" height="147" alt="image" src="https://github.com/user-attachments/assets/cd39805c-3ecb-4ed8-90db-871fa562714c" />
 
-- The 'incorrect text' specifies the text that appears ONLY when the account details are incorrect. Note that on sites where there may be rate limiting and factors causing different responses, this may cause the program to be innacurate.
+- The 'incorrect text' specifies the text that appears ONLY when the account details are incorrect. Note that on sites where there may be rate limiting and factors causing different responses, this may cause false positives.
 
 
 # Other information
